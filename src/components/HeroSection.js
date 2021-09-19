@@ -62,7 +62,7 @@ export default class HeroSection extends React.Component {
                             >
                                 {videoEmbed ? htmlToReact(videoEmbed)
                                     : <img
-                                            src={withPrefix(girl)}
+                                            src={withPrefix(image)}
                                             alt={imageAlt}
                                             className={classNames({
                                                 'mx-auto': alignX === 'center',
